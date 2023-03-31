@@ -8,6 +8,10 @@ packages = [{include = "pyqt_converter"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyqt6 = "^6.4.2"
+firebase-admin = "^6.1.0"
+pandas = "^1.5.3"
+openpyxl = "^3.1.2"
 
 
 [build-system]
