@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyqt-converter"
+version = "0.1.0"
+description = ""
+authors = ["Dhruv Bonde <devnev39@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyqt_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
